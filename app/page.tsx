@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Header from "./components/header/Header";
 import Laura from "./assets/team/laura.jpg";
-import Asya from "./assets/team/Asya.jpg";
+import Asya from "./assets/team/asya.jpg";
 import Team from "./assets/team/team-first-meeting-fia.jpg";
 import Insta from './assets/insta-needles-craft-kultur.jpg';
 import vidBannerCrochet from './assets/crochet480.mp4';
