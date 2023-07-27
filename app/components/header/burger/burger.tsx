@@ -43,6 +43,9 @@ export default function Burger() {
                             <li className="border-b border-gray-400 my-8 uppercase">
                                 <a href="/team">Team</a>
                             </li>
+                            {/* <li className="border-b border-gray-400 my-8 uppercase">
+                                <a href="/contact">Blog</a>
+                            </li> */}
                             <li className="border-b border-gray-400 my-8 uppercase">
                                 <a href="/contact">Contact</a>
                             </li>
@@ -58,6 +61,9 @@ export default function Burger() {
                     <li>
                         <a href="/team">Team</a>
                     </li>
+                    {/* <li>
+                        <a href="/blog">Blog</a>
+                    </li> */}
                     <li>
                         <a href="/contact">Contact</a>
                     </li>
