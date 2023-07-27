@@ -1,9 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Header from "./components/header/Header";
-import Laura from "../public/assets/laura.jpg";
-import Asya from "../public/assets/team/asya.jpg";
-import Team from "../public/assets/team/team-first-meeting-fia.jpg";
+import Flyer from "../public/assets/flyer-grassi.jpg";
 import Insta from '../public/assets/insta-needles-craft-kultur.jpg';
 // import vidBannerCrochet from './assets/crochet480.mp4';
 
@@ -28,6 +26,7 @@ export default function Home() {
         {/* embed insta feed */}
         <h1 className='text-5xl mb-8'>Needles, Craft and Culture</h1>
         <p className='mb-8'>Welcome to the Grassi Muesum community textile workshop!</p>
+        <Image src={Flyer} alt="flyer outside grassi" />
         <h2 className='mb-4'>Check out our Instagram for the latest info!</h2>
         <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
         {/* <div> */}
