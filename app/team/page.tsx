@@ -4,7 +4,7 @@ import Header from "../components/header/Header";
 
 import team from "../../public/assets/team/team-first-meeting-fia.jpg";
 import Laura from "../../public/assets/team/laura.jpg";
-import Asya from "../../public/assets/team/Asya.jpg";
+import Asya from "../../public/assets/team/asya.jpg";
 import Jule from "../../public/assets/team/jule-shibori.jpg";
 import Jeany from "../../public/assets/team/Jeany-work.png";
 import Eitidal from "../../public/assets/team/eitidal-work.jpg";
