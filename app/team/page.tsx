@@ -16,30 +16,30 @@ export default function Team() {
         <div className="justify-items-center">
             <Header />
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
-                <h1 className="text-center text-5xl mt-6">The Team</h1>
-                <div className="grid grid-cols-3">
+                <h1 className="text-center text-5xl mt-6 mb-6">The Team</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
-                        <Image src={team} alt="Grassi team" className=" w-96"></Image>
+                        <Image src={team} alt="Grassi team" className="rounded-3xl  w-96"></Image>
                         <p>We had our first meeting in Aug 2022</p>
                     </div>
                     <div>
-                        <Image src={Laura} alt="team member Laura" className=" w-96"></Image>
+                        <Image src={Laura} alt="team member Laura" className="rounded-3xl  w-96"></Image>
                         <p>Laura leads the Friday group</p>
                     </div>
                     <div>
-                        <Image src={Asya} alt="team member Asya" className=" w-96"></Image>
+                        <Image src={Asya} alt="team member Asya" className="rounded-3xl  w-96"></Image>
                         <p>Asya leads the Wednesday group with FIA (Frauen in Arbeit)</p>
                     </div>
                    <div>
-                        <Image src={Jule} alt="team member Jule" className=" w-96"></Image>
+                        <Image src={Jule} alt="team member Jule" className="rounded-3xl  w-96"></Image>
                         <p>Jule is part of the Friday team</p>
                     </div>
                     <div>
-                        <Image src={Jeany} alt="team member Jeany" className=" w-96"></Image>
+                        <Image src={Jeany} alt="team member Jeany" className="rounded-3xl  w-96"></Image>
                         <p>Jeany is part of the Friday group and is the best crocheter in town</p>
                     </div>
                     <div>
-                        <Image src={Eitidal} alt="team member Eitidal" className=" w-96"></Image>
+                        <Image src={Eitidal} alt="team member Eitidal" className="rounded-3xl  w-96"></Image>
                         <p>Eitidal is part of the Wednesday group</p>
                     </div> 
                 </div>
