@@ -24,7 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  /* Image: transform 
+  hover:scale-[1.01] */
 }
+
 
 /* @font-face {
   font-family: 'burtons';
