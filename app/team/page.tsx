@@ -15,8 +15,8 @@ export default function Team() {
     return (
         <div className="justify-items-center">
             <Header />
-            <main className="flex min-h-screen flex-col items-center justify-between p-24">
-                <h1 className="text-center text-5xl mt-6 mb-6">The Team</h1>
+            <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-20">
+                <h1 className="text-center text-5xl mt-6 mb-6 tracking-widest">The Team</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
                         <Image src={team} alt="Grassi team" className="rounded-3xl  w-96"></Image>

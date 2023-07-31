@@ -1,9 +1,23 @@
 import React from "react";
 import { useState } from "react";
+// import { useRouter } from "next/router";
 import { SocialIcon } from "react-social-icons";
+// import en from '../../../../public/assets/translations/en';
+// import de from '../../../../public/assets/translations/de';
+// import sy from '../../../../public/assets/translations/sy';
 
 export default function Burger() {
     const [isNavOpen, setIsNavOpen] = useState(false);
+
+    // const router = useRouter();
+    // const { locale } = router;
+    // const text = locale === 'en' ? en : de;
+
+    // const changeLanguage = (e: { target: { value: any; }; }) => {
+    //     const local = e.target.value;
+    //     //ES 6 shorthand notation for objects location: location
+    //     router.push('/', '/', { locale });
+    // };
 
     return (
         <div>
@@ -56,16 +70,16 @@ export default function Burger() {
 
                 <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                     <li>
-                        <a href="/about">About</a>
+                        <a href="/about" className="hover:text-gray-400">About</a>
                     </li>
                     <li>
-                        <a href="/team">Team</a>
+                        <a href="/team" className="hover:text-gray-400">Team</a>
                     </li>
                     {/* <li>
                         <a href="/blog">Blog</a>
                     </li> */}
                     <li>
-                        <a href="/contact">Contact</a>
+                        <a href="/contact" className="hover:text-gray-400">Contact</a>
                     </li>
                 </ul>
             </nav>
