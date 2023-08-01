@@ -26,13 +26,13 @@ export default function About() {
                     <p>The project is a collaboration between FiA - Frauen in Arbeit and Leipzig Wardrobe by Laura Hesse</p>
                 </div>
                 <div className="grid grid-cols-2 xl:w-1/2 xl:m-auto bg-gray-900 p-5 my-5">
-                    <a href="https://www.fia-leipzig.de/" target="_blank" className=""><Image src={FIAlogo} alt="FIA logo" className='my-4'></Image></a>
+                    <a href="https://www.fia-leipzig.de/" target="_blank" className="hover:scale-[1.01]"><Image src={FIAlogo} alt="FIA logo" className='my-4'></Image></a>
                     <p className="ml-5 mt-3 text-gray-300 text-justify text-xs md:text-base">FiA - Frauen in Arbeit is an intercultural women's center for information and connections. </p>
                 </div>
                 <div className="my-3"></div>
                 <div className="grid grid-cols-2 xl:w-1/2 xl:m-auto bg-gray-900 p-5 my-5">
                     <p className="mt-3 text-gray-300 text-justify text-xs md:text-base">The Leipzig Wardrobe project aims to build a sewing community in Leipzig and promote skill shareing.</p>
-                    <a href="https://www.instagram.com/leipzig.wardrobe/" target="_blank" className="ml-5"><Image src={LeipzigWardrobelogo} alt="Leipzig wardrobe logo" className='my-4 w-20 m-auto'></Image></a>
+                    <a href="https://www.instagram.com/leipzig.wardrobe/" target="_blank" className="ml-5 hover:scale-[1.01]"><Image src={LeipzigWardrobelogo} alt="Leipzig wardrobe logo" className='my-4 w-20 m-auto'></Image></a>
                 </div>
                 {/* <Image src={CrochetChildren} alt="childrens hands chrochet" className='my-4'></Image> */}
 
