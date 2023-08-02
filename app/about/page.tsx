@@ -6,6 +6,9 @@ import FlyerEng from "../../public/assets/flyer-eng.jpg"
 import FlyerGerm from "../../public/assets/flyer-german.jpg"
 import FIAlogo from "../../public/assets/logos/FIA_logo.png"
 import LeipzigWardrobelogo from "../../public/assets/logos/LeipzigWardrobeLogo.png"
+import GroupWorkshop from "../../public/assets/team/group-in-workshop.jpg"
+import TeamStairs from "../../public/assets/team/group-on-stairs.jpg"
+import GroupJule from "../../public/assets/team/group-in-workshop-jule.jpg"
 import CrochetChildren from "../../public/assets/crochet-children.jpg"
 
 export default function About() {
@@ -17,10 +20,15 @@ export default function About() {
                 <h1 className='text-center text-5xl mt-6 mb-6 tracking-widest'>About</h1>
                 <p className='text-center my-10'>A community textile workshop at Grassi Museum in Leipzig. Every Wednesday from 11-1pm and Fridays from 3pm to 5pm.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <Image src={GroupWorkshop} alt="group in workshop" className='rounded-3xl'></Image>
+                    <Image src={GroupJule} alt="group" className='rounded-3xl'></Image>
+                    <Image src={TeamStairs} alt="group on stairs" className='rounded-3xl'></Image>
                     <Image src={FlyerGrassi} alt="Flyer outside Grassi Museum" className='rounded-3xl'></Image>
                     <Image src={FlyerEng} alt="flyer in English" className='rounded-3xl'></Image>
                     <Image src={FlyerGerm} alt="flyer in German" className='rounded-3xl'></Image>
                 </div>
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                </div> */}
                 <div className="text-center my-10">
                     <h2 className="mt-5 text-xl">Collaboration</h2>
                     <p>The project is a collaboration between FiA - Frauen in Arbeit and Leipzig Wardrobe by Laura Hesse</p>
