@@ -1,5 +1,6 @@
-import React from "react";
-import Header from "../components/header/Header";
+// import React from "react";
+import Header from "../components/Header";
+import BannerAbout from "../components/banner/BannerAbout";
 import Image from "next/image";
 import FlyerGrassi from "../../public/assets/flyer-grassi.jpg"
 import FlyerEng from "../../public/assets/flyer-eng.jpg"
@@ -17,6 +18,7 @@ export default function About() {
     return (
         <>
             <Header />
+            <BannerAbout />
             <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-20">
                 <h1 className='text-center text-5xl mt-6 mb-6 tracking-widest'>About</h1>
                 <p className='text-center my-10'>A community textile workshop at Grassi Museum in Leipzig. Every Wednesday from 11-1pm and Fridays from 3pm to 5pm.</p>
@@ -48,8 +50,6 @@ export default function About() {
                     <a href="https://grassi-voelkerkunde.skd.museum/en/" target="_blank" className="hover:scale-[1.01]"><Image src={GrassiLogo} alt="Grassi logo" className='my-4 m-auto'></Image></a>
                     <p className="ml-5 mt-3 text-gray-300 text-justify text-xs md:text-base">Grassi Museum für Völkerkunde zu Leipzig. A network museum which works with and for a diverse urban society.</p>
                 </div>
-                {/* <Image src={CrochetChildren} alt="childrens hands chrochet" className='my-4'></Image> */}
-
             </main>
         </>
     )

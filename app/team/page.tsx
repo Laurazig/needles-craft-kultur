@@ -1,7 +1,7 @@
 // import React from "react";
 import Image from "next/image";
-import Header from "../components/header/Header";
-
+import Header from "../components/Header";
+import BannerTeam from "../components/banner/BannerTeam";
 import team from "../../public/assets/team/team-first-meeting-fia.jpg";
 import Laura from "../../public/assets/team/laura.jpg";
 import Asya from "../../public/assets/team/asya.jpg";
@@ -15,6 +15,7 @@ export default function Team() {
     return (
         <div className="justify-items-center">
             <Header />
+            <BannerTeam />
             <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-20">
                 <h1 className="text-center text-5xl mt-6 mb-6 tracking-widest">The Team</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
