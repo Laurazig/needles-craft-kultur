@@ -1,7 +1,7 @@
 'use client'
 import Logo from '../../public/assets/logos/logo.png';
 import Image from 'next/image';
-import Burger from './burger';
+import Burger from './Burger'
 // import { useRouter } from 'next/router';
 // import en from '../../../public/assets/translations/en';
 // import de from '../../../public/assets/translations/de';
