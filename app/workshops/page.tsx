@@ -57,8 +57,9 @@ export default function Workshops() {
                 </div>
 
                 <div className="mt-10 text-center m-auto">
-                    <div className="bg-slate-600 mt-10 p-4 w-80">
-                        <h2>Check out the Grassi program.</h2>
+                    <div className="bg-slate-600 mt-10 p-4 w-120">
+                        <h2 className="font-bold">Check out the Grassi program</h2>
+                        <p className="text-sm sm:text-base">We are listed as 'Offenes Handarbeitsatelier'</p>
                         <a href="https://grassi-voelkerkunde.skd.museum/en/programm/" target="_blank" className="hover:scale-[1.01]" ><Image src={GrassiLogo} alt="Grassi logo" className='my-4 m-auto'></Image></a>
                     </div>
                 </div>

@@ -21,5 +21,5 @@ module.exports = {
   //   sans: ['Graphik', 'sans-serif'],
   //   serif: ['Merriweather', 'serif'],
   // },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }
