@@ -1,6 +1,7 @@
 // import React from "react";
 import Header from "../components/Header";
-import BannerAbout from "../components/banner/BannerAbout";
+// import BannerAbout from "../components/banner/BannerAbout";
+import Banner from "../components/banner/Banner";
 import Image from "next/image";
 import FlyerGrassi from "../../public/assets/flyer-grassi.jpg"
 import FlyerEng from "../../public/assets/flyer-eng.jpg"
@@ -18,7 +19,8 @@ export default function About() {
     return (
         <>
             <Header />
-            <BannerAbout />
+            {/* <BannerAbout /> */}
+            <Banner />
             <main className="flex min-h-screen flex-col items-center justify-between p-5 md:p-20">
                 <h1 className='text-center text-5xl mt-6 mb-6 tracking-widest'>About</h1>
                 <p className='text-center my-10'>A community textile workshop at Grassi Museum in Leipzig. Every Wednesday from 11-1pm and Fridays from 3pm to 5pm.</p>

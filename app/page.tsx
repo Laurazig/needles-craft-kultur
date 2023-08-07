@@ -2,7 +2,8 @@
 // import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Header from './components/Header'
-import Banner from './components/banner/Banner'
+// import Banner from './components/banner/Banner'
+import BannerAbout from './components/banner/BannerAbout'
 import Flyer from '../public/assets/flyers/flyer.jpg'
 import Insta from '../public/assets/insta-needles-craft-kultur.jpg'
 import en from '../public/assets/translations/en'
@@ -23,7 +24,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Banner />
+      {/* <Banner /> */}
+      <BannerAbout />
       {/* <header> */}
       {/* <ReactPlayer loop muted playsInline>
           <source src={vidBannerCrochet} type='video/webm'></source>
